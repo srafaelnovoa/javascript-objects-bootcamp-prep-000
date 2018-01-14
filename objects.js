@@ -1,3 +1,3 @@
 function updatePlaylist(obj, artistName, songTitle) {
-  return Object.assign({})
+  return Object.assign({}, obj, {artistName : songTitle})
 }
